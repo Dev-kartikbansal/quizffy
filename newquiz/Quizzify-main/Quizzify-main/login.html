@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .html,body{
+            background-color: #0f0949;
+        }
+        .global-container {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #0f0949;
+        }
+        .card.login-form {
+            width: 400px;
+            margin: 20px;
+        }
+        .card-title {
+            font-weight: 300;
+        }
+        .btn {
+            font-size: 14px;
+            margin-top: 20px;
+        }
+        .sign-up {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="global-container">
+        <div class="card login-form">
+            <div class="card-body">
+                <h3 class="card-title text-center">Explore The Space</h3>
+                <div class="card-text">
+                    <!-- Uncomment this <div> to show an alert -->
+                    <!-- <div class="alert alert-danger alert-dismissible fade show" role="alert">Incorrect username or password.</div> -->
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control form-control-sm" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <a href="#" style="float:right;font-size:12px;">Forgot password?</a>
+                            <input type="password" class="form-control form-control-sm" id="exampleInputPassword1">
+                        </div>
+                        <a href="index.html" class="btn btn-primary btn-block">Sign in</a>
+                        
+                        <div class="sign-up">
+                            Don't have an account? <a href="#">Create One</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
